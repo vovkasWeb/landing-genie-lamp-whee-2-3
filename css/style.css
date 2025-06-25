@@ -113,21 +113,20 @@ body {
 	background-color: #171836bf;
 	border: 3px solid #6568b870;
 	border-radius: 32px;
-	max-width: 390px;
 }
 
 .main__title {
 	display: block;
 	font-weight: 900;
 	margin: 0 auto;
-	font-size: clamp(18px, 3vw, 28px);
-	line-height: clamp(20px, 3vw, 30px);
+	font-size: clamp(30px, 3vw, 35px);
+	line-height: 100%;
 }
 .main__max-bonus {
 	display: block;
 	font-weight: 900;
 	color: #ffbc00;
-	font-size: clamp(25px, 4vw, 50px);
+	font-size: clamp(48px, 4vw, 55px);
 	line-height: 100%;
 }
 .main__plus-mini {
@@ -409,15 +408,6 @@ body {
 		max-width: 40%;
 		max-height: 50%;
 	}
-
-
-	.main__block-info {
-		max-width: 100%;
-	}
-	.main__title {
-		max-width: 300px;
-	}
-
 	.logo {
 		z-index: 2;
 	}
@@ -472,7 +462,7 @@ body {
 		max-width: 100%;
 	}
 	.main__block-info {
-		padding: 15px 15px 10px 15px;
+		padding: 20px 25px;
 	}
 	.popup__btn {
 		margin-top: 10px;
